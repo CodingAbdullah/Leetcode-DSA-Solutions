@@ -21,6 +21,19 @@ More to be added here later.
 
 ---
 
+## ⚡️ Leetcode Solutions & Problem Links
+
+| Leetcode Solution | Problem Links|
+|----------------|------|
+| `/leetcode_solutions/ReverseString.ts` | [Leetcode Problem](https://leetcode.com/problems/reverse-string/description/) |
+| `/leetcode_solutions/TwoSum.ts` | [Leetcode Problem](https://leetcode.com/problems/two-sum/description/) |
+| `/leetcode_solutions/VaccumCleanerRoute.java` | Leetcode Problem |
+| `/leetcode_solutions/ContainsDuplicate.ts` | [Leetcode Problem](https://leetcode.com/problems/contains-duplicate/) |
+| `/leetcode_solutions/ValidAnagram.ts` | [Leetcode Problem](https://leetcode.com/problems/valid-anagram/description/) |
+| `/leetcode_solutions/RansomNote.ts` | [Leetcode Problem](https://leetcode.com/problems/ransom-note/description/) |
+
+---
+
 ## 🧠 Learning Resources on [softwareblog.dev](https://softwareblog.dev)
 
 Explore in-depth guides, tutorials, and articles related to DSA and Leetcode problem-solving on [softwareblog.dev](https://softwareblog.dev). More to be added here later.
