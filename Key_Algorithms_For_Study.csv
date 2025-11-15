@@ -1,0 +1,56 @@
+Category,Algorithm / Concept,Sedgewick Chapter,Priority,Implemented (TS),LeetCode Problems,Difficulty,Notes / Key Insight
+Arrays / Strings,Two-pointer pattern,-,Must,,#11 Container With Most Water,Medium,Shrink window technique
+Arrays / Strings,Sliding window,-,Must,,#3 Longest Substring Without Repeating,Medium,Expand/shrink boundaries dynamically
+Arrays / Strings,Prefix sums,-,Important,,#560 Subarray Sum Equals K,Medium,Precompute sums
+Sorting,Merge Sort,Ch. 2,Must,,#148 Sort List,Medium,Divide & conquer
+Sorting,Quick Sort,Ch. 2,Must,,#912 Sort an Array,Medium,Randomized pivot
+Sorting,Heap Sort,Ch. 2.4,Important,,#215 Kth Largest Element,Medium,Use max/min heap
+Sorting,Key-Indexed Counting,Ch. 5,Advanced,,-,-,Base for LSD
+Sorting,LSD / MSD String Sort,Ch. 5,Advanced,,-,-,Radix sorting logic
+Stacks / Queues,Stack (array/list),Ch. 1,Must,,#20 Valid Parentheses,Easy,LIFO principle
+Stacks / Queues,Queue (2 stacks),Ch. 1,Important,,#232 Implement Queue using Stacks,Easy,FIFO via two stacks
+Hashing,Linear Probing Hash Table,Ch. 3.4,Must,,#1 Two Sum,Easy,O(1) average lookups
+Hashing,Separate Chaining,Ch. 3.4,Must,,-,-,Linked lists per bucket
+Linked List,Reverse Linked List,-,Must,,#206 Reverse Linked List,Easy,Iterative / recursive
+Linked List,Detect Cycle (Floyd’s),-,Important,,#141 Linked List Cycle,Easy,Fast/slow pointer
+Trees / BST,Binary Search Tree,Ch. 3.3,Must,,#98 Validate BST,Medium,Inorder traversal
+Trees / BST,Balanced BST (Red-Black),Ch. 3.3,Advanced,,-,-,Conceptual understanding
+Graphs,BFS / DFS,Ch. 4.1,Must,,#200 Number of Islands,Medium,Traversal template
+Graphs,Union-Find (Disjoint Set),Ch. 4.3,Must,,#547 Provinces,Medium,Path compression
+Graphs,Dijkstra’s Algorithm,Ch. 4.4,Important,,#743 Network Delay Time,Medium,Shortest path
+Graphs,Bellman-Ford,Ch. 4.4,Advanced,,#787 Cheapest Flights,Hard,Negative weights
+Graphs,Topological Sort,Ch. 4.2,Important,,#207 Course Schedule,Medium,DAG ordering
+Dynamic Programming,1D DP (Bottom-Up),-,Must,,#70 Climbing Stairs,Easy,Base recurrence
+Dynamic Programming,2D DP,-,Important,,#1143 LCS,Medium,State transitions
+Dynamic Programming,Knapsack,-,Important,,#416 Partition Equal Subset,Medium,Subset sum DP
+Greedy,Interval Scheduling,Ch. 4.3,Must,,#435 Non-overlapping Intervals,Medium,Sort + choose optimal
+Greedy,Huffman Coding,Ch. 5,Advanced,,-,-,Entropy-based compression
+Strings,KMP (Substring Search),Ch. 5,Must,,#28 Implement strStr,Medium,Prefix function
+Strings,Rabin-Karp,Ch. 5,Important,,#187 Repeated DNA Sequences,Medium,Rolling hash
+Strings,Trie,Ch. 5,Important,,#208 Implement Trie,Medium,Prefix search
+Strings,Regex (NFA Simulation),Ch. 5,Advanced,,-,-,Pattern matching automata
+Strings,LZW Compression,Ch. 5,Advanced,,-,-,Dictionary-based encoding
+Graph Advanced,Kosaraju / Tarjan,Ch. 4.2,Advanced,,-,Hard,SCC detection
+Graph Advanced,Ford–Fulkerson,Ch. 4.6,Advanced,,-,Hard,Max flow
+Advanced DS,Segment Tree,-,Advanced,,#307 Range Sum Query,Hard,Range queries
+Advanced DS,Fenwick Tree,-,Advanced,,-,-,Efficient prefix sums
+Advanced DS,Suffix Array / Tree,-,Advanced,,#1163 Last Substring,Hard,Lexicographic suffix order
+Optional Mastery (Patterns),Monotonic Stack,-,Optional,,#84 Largest Rectangle in Histogram,Hard,Used in stack-based array problems
+Optional Mastery (Patterns),Monotonic Queue,-,Optional,,#239 Sliding Window Maximum,Hard,For max/min in sliding window
+Optional Mastery (Patterns),Binary Search on Answer,-,Optional,,#875 Koko Eating Bananas,Medium,Binary search on feasible range
+Optional Mastery (Patterns),Prefix–Suffix Products,-,Optional,,#238 Product of Array Except Self,Medium,Precompute prefix/suffix results
+Optional Mastery (Patterns),Two Heaps Pattern,-,Optional,,#295 Find Median from Data Stream,Hard,Maintain balanced heaps
+Optional Mastery (Patterns),Sliding Window (Variable),-,Optional,,#3 Longest Substring Without Repeating,Medium,Expand and contract window dynamically
+Optional Mastery (Patterns),Backtracking,-,Optional,,#46 Permutations,Medium,DFS with path state tracking
+Optional Mastery (Patterns),Bitmask DP,-,Optional,,#847 Shortest Path Visiting All Nodes,Hard,DP over subsets
+Optional Mastery (Patterns),Matrix DP,-,Optional,,#72 Edit Distance,Medium,2D state transitions
+Optional Mastery (Patterns),Floyd–Warshall,-,Optional,,-,Medium,All-pairs shortest path
+Optional Mastery (System Bridges),LRU Cache,-,Optional,,#146 LRU Cache,Medium,LinkedHashMap or custom doubly linked list + hashmap
+Optional Mastery (System Bridges),Bloom Filter,-,Optional,,-,Advanced,Probabilistic membership test
+Optional Mastery (System Bridges),B-Tree / B+ Tree,-,Optional,,-,Advanced,Database indexing concept
+Optional Mastery (System Bridges),Consistent Hashing,-,Optional,,-,Advanced,Used in distributed systems
+Optional Mastery (System Bridges),Top-K Elements,-,Optional,,#347 Top K Frequent Elements,Medium,Heap or quickselect
+Optional Mastery (System Bridges),Tarjan’s Bridge / Articulation Point,-,Optional,,-,Hard,Graph connectivity algorithm
+Optional Mastery (System Bridges),Aho–Corasick,-,Optional,,-,Advanced,Multi-pattern string search
+Optional Mastery (System Bridges),Suffix Automaton,-,Optional,,-,Advanced,Compact substring recognition automaton
+Optional Mastery (System Bridges),Dinic’s / Edmonds–Karp,-,Optional,,-,Advanced,Max flow improvement over Ford–Fulkerson
