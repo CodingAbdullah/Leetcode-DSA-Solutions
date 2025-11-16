@@ -1,13 +1,4 @@
-// Link Node class for implementing a Linked List in TypeScript
-class LinkNode {
-    item: number;
-    next: LinkNode | null;
-
-    constructor(item: number) {
-        this.item = item;
-        this.next = null;
-    }
-}
+import { LinkNode } from "./LinkNode";
 
 // Implementing a LinkedList
 class LinkedList {
@@ -131,3 +122,5 @@ class LinkedList {
         }
     }
 }
+
+export { LinkedList };
