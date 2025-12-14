@@ -1,13 +1,13 @@
-import { LinkedList } from "./LinkedList";
+import { LinkedList } from "../linked_lists/LinkedList";
 
-// Queue data structure implemented using Linked List
+// Queue data structure implemented using a singly linked list
 // FIFO implementation
 // 1, 1->2, 1->2->3, 2->3, 3
 class QueueLinkedList {
     private queueList: LinkedList;
 
     constructor() {
-        this.queueList = new LinkedList(); // Initalize an empty Linked List
+        this.queueList = new LinkedList(); // Initalize an empty linked list
     }
 
     // Check the front item of the queue without removing it

@@ -1,4 +1,4 @@
-import { QueueLinkedList } from "./QueueLinkedList"
+import { QueueLinkedList } from "../queues/QueueLinkedList"
 
 // Implementing a Stack using two Queues which implement LinkedLists behind the scenes
 class TwoQueueStack {

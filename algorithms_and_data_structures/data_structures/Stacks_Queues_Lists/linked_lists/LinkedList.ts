@@ -1,4 +1,4 @@
-import { LinkNode } from "./LinkNode";
+import { LinkNode } from "../recursive_data_structures/LinkNode";
 
 // Implementing a LinkedList
 class LinkedList {
@@ -106,7 +106,7 @@ class LinkedList {
 
     // Count the number of elements inside a Linked List
     length() : number {
-        if (this.head === null ){
+        if (this.head === null){
             return 0;
         }
         else {

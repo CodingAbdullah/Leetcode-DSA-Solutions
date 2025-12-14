@@ -1,5 +1,5 @@
 // Implementing a Queue using Two Stacks which implement Linked Lists
-import { StackLinkedList } from "./StackLinkedList";
+import { StackLinkedList } from "../stacks/StackLinkedList";
 
 class TwoStackQueue {
     stackOne: StackLinkedList;
